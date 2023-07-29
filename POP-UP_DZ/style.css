@@ -1,0 +1,103 @@
+.pop-up {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pop-up_body{
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+
+}
+.pop-up_body h1 {
+  font-weight: 1000;
+  font-family:sans-serif ;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+.button{
+  margin-top: 40px;
+  text-align: center;
+
+
+}
+.button button {
+  font-family: Monstserrat;
+  background-color: orange;
+  padding: 20px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500px;
+}
+
+.light-mode {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.light-mode .pop-up_body {
+  background-color: #fefefe;
+  border: 1px solid #888;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.dark-mode .pop-up_body {
+  background-color: #f9f9f9;
+  border: 1px solid #888;
+
+}
+
+
+.theme-button{
+
+  border-radius: 10;
+  margin-left: 710px;
+}
+.button{
+  margin-top: 30px;
+}
